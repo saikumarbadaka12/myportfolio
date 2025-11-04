@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* small helper for glass */
+.bg-glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(6px);
+}
+.dark .bg-glass {
+  background: rgba(0,0,0,0.28);
+}
