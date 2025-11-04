@@ -49,7 +49,8 @@ export default function Hero() {
             transition={{ delay: 0.6 }}
           >
             <motion.a
-              href="/Saikumar_CV.pdf"
+              // href="/Saikumar_CV.pdf"
+              href={`${process.env.PUBLIC_URL}/Saikumar_CV.pdf`}
               download
               whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(99,102,241,0.6)" }}
               whileTap={{ scale: 0.95 }}
