@@ -48,8 +48,8 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-           <motion.a
-              href="/Saikumar_CV.pdf"
+            <motion.a
+              href="/SaiKumar_CV.pdf"
               download="SaiKumar_Badaka_CV.pdf"
               whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(99,102,241,0.6)" }}
               whileTap={{ scale: 0.95 }}
@@ -57,7 +57,6 @@ export default function Hero() {
             >
               Download Resume
             </motion.a>
-
 
             <motion.a
               href="#projects"
